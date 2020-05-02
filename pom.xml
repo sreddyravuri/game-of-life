@@ -12,6 +12,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <easyb.version>1.4</easyb.version>
         <cobertura.version>2.6</cobertura.version>
+        <sonar.host.url>http://ec2-13-233-252-2.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
+		<sonar.login>Admin</sonar.login>
+		 <sonar.password>Admin@123</sonar.password>
         <!-- A workaround for a bug in PMD -->
         <sourceJdk>1.8</sourceJdk>
         <targetJdk>1.8</targetJdk>
